@@ -45,3 +45,17 @@ var tabPersonnages = [
 
 // ************************** FIND ************************
 
+// find permet de trouver un élément dans un tableau.
+
+
+// let achille = tabPersonnages.find(element => {
+//     return element.nom = 'Achille'
+// })
+
+// console.log(achille)
+
+
+// ********************* SOME ******************
+
+// some 
+// renvoie true si un élément respectant une certaine condition a été trouvé dans un tableau, false sinon.
