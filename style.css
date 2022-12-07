@@ -102,3 +102,43 @@ h3 {
 }
 
 /*                           PRESENTATION                          */
+
+#presentation {
+    background-color:antiquewhite;
+    padding: 10px 0px 100px 0px;
+}
+
+#texteIntro {
+    padding: 0 20%;
+}
+
+#prestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.imagePresentation h4 {
+text-align: center;
+font-size: 1.8em;
+margin: 15px;
+font-weight: 300;
+}
+
+.imagePrestation img {
+    border-radius: 10px;
+    box-shadow: 3px 4px 23px 0px pink;
+    transition: 0.5s;
+}
+
+.imagePrestation img:hover {
+    opacity: 0.5;
+    /* fait grossir l'image */
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+    
+    
+}
+
+
