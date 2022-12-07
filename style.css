@@ -234,13 +234,51 @@ textarea {
 button {
     font-size: 1.5em;
     background-color: cadetblue;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
 }
 
 button:hover {
     background-color: rgb(43, 144, 226);
     color: pink;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
     /* Permet de faire apparaitre un doigt */
     cursor: pointer;
+}
+
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: antiquewhite;
+    margin: 60px auto;
+}
+
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: antiquewhite;
+}
+
+#icon {
+    width: 50%;
+    text-align: right;
+
+}
+
+#icon a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.7em;
+    color: antiquewhite;
+    transition: 0.4s
+}
+
+#icon a:hover {
+    transform: scale(1.7);
+    transition: 0.4s;
 }
