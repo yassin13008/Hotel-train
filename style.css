@@ -138,7 +138,109 @@ font-weight: 300;
     transform: scale(1.05);
     transition: 0.5s ease-in-out;
     
-    
 }
 
+/*                         PARTIE TOURISME                             */
 
+
+#tourisme {
+    height: 1400px;
+    background-color: aliceblue;
+    padding: 1px 2%;
+
+}
+
+#tourisme h2 {
+    padding-top: 60px;
+}
+
+#ocean {
+    background: url(img-hotel/ocean.jpg)no-repeat;
+}
+
+#chateau {
+    background: url(img-hotel/chateau.JPG)no-repeat;
+}
+
+#phare {
+    background: url(/img-hotel/phare.JPG)no-repeat;
+}
+
+#vignoble {
+    background: url(/img-hotel/vignes.jpg) no-repeat;
+}
+
+#tourisme li {
+    border-radius: 5px;
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 1px 3px 2px palevioletred;
+}
+
+#tourisme p {
+    border-radius: 5px;
+    height: 45px;
+    width: 235px;
+    background-color: aquamarine;
+    float: right;
+    margin: 50px -180px;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 3px 3px 10px 1px cornflowerblue;
+}
+
+#tourisme #chateau, #tourisme #vignoble {
+    float: right;
+}
+
+#chateau p, #vignoble p {
+    float: left;
+    background-color: deepskyblue;
+    margin-left: -180px;
+    box-shadow: 3px 3px 10px 1px silver;
+}
+
+/*                        JE PASSE AU FOOTER                       */
+
+footer {
+    background-color:darkgrey;
+    color: antiquewhite;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+form {
+margin: 0 auto;
+max-width: 900px;
+}
+
+input, textarea, button {
+    border: none;
+    border-radius: 8px;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: cadetblue;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(43, 144, 226);
+    color: pink;
+    transition: 0.5s;
+    /* Permet de faire apparaitre un doigt */
+    cursor: pointer;
+}
